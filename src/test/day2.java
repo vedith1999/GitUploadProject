@@ -21,7 +21,11 @@ public class day2 {
 	@BeforeSuite
 	public void beforeSuitExecution() {
 		System.out.println("I'll execute before suite");
+		//Below lines are added by US guy
+				System.out.println("US Guy line");	
 	}
+	
+	
 
 	@Parameters({ "URL" })
 

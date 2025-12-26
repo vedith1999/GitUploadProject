@@ -16,7 +16,9 @@ public class day1 {
 	public void lastExecution() {
 		System.out.println("I'll execute last");
 		System.out.println("This is the new line added by the second developer");
-	}
+		//Below lines are added by US guy
+		System.out.println("US Guy line");	
+		}
 	
 	@Test(groups= {"Smoke"})
 	public void demo() {
