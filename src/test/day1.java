@@ -40,4 +40,11 @@ public class day1 {
 		System.out.println("byePersonalLoan");
 		System.out.println(urlName);
 	}
+	
+	@Test
+	public void demo12(String urlName) {
+		
+		System.out.println("byePersonalLoan");
+		System.out.println(urlName);
+	}
 }
