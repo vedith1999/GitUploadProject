@@ -15,6 +15,7 @@ public class day1 {
 	@AfterTest
 	public void lastExecution() {
 		System.out.println("I'll execute last");
+		System.out.println("This is the new line added by the second developer");
 	}
 	
 	@Test(groups= {"Smoke"})
