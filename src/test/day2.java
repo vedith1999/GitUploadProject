@@ -36,5 +36,14 @@ public class day2 {
 		System.out.println(urlName);
 		Assert.assertTrue(false);
 	}
+	
+	@Test
+	public void demo22(String urlName) {
+
+		System.out.println("byePersonalLoan");
+		System.out.println(urlName);
+		Assert.assertTrue(false);
+	}
+
 
 }

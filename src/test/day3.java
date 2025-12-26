@@ -66,6 +66,13 @@ public class day3 {
 		System.out.println("LoginAPICar");
 	}
 	
+	
+	@Test(dependsOnMethods= {"MobileSignInCar","MobileSignOutCar"})
+	public void LoginAPICar1() {
+		//Rest API Automation
+		System.out.println("LoginAPICar");
+	}
+	
 	@DataProvider
 	public Object[][] getData() {
 		

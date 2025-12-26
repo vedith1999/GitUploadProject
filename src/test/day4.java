@@ -22,4 +22,10 @@ public class day4 {
 	}
 	
 	
+	@Test(groups= {"Smoke"})
+	public void LoginAPIHome1() {
+		//Rest API Automation
+		System.out.println("LoginAPIHome");
+	}
+	
 }
